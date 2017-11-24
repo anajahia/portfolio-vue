@@ -1,10 +1,7 @@
-<template>
-  <section class="section is-medium">
-    <div class="container has-text-centered">
-      <h1 class="title">My Projects</h1>
-      <p>
-        Most of my projects can be found randomly after passing several competency levels and also on <a href="https://github.com/ammezie" target="_blank">GitHub</a>.
-      </p>
-    </div>
-  </section>
+<template lang="pug">
+  section.section.is-medium
+    .container.has-text-centered
+      h1.title My Projects
+      p
+        a(href='https://github.com/ammezie', target='_blank') GitHub
 </template>

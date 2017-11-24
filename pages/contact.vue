@@ -1,10 +1,7 @@
-<template>
-  <section class="section is-medium">
-    <div class="container has-text-centered">
-      <h1 class="title">Contact Me</h1>
-      <p>
-        You can follow me on Twitter: <a href="https://twitter.com/ammezie" target="_blank">@ammezie</a>
-      </p>
-    </div>
-  </section>
+<template lang="pug">
+  section.section.is-medium
+    .container.has-text-centered
+      h1.title Contact Me
+      p
+        a(href='https://twitter.com/ammezie', target='_blank') @ammezie
 </template>
